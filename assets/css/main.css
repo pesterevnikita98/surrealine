@@ -2673,7 +2673,7 @@ input, select, textarea {
 				border-bottom: 0;
 				color: #ffffff;
 				text-align: center;
-				text-decoration: none;
+				text-decoration: none;				
 				z-index: 3;
 			}
 
@@ -2689,7 +2689,7 @@ input, select, textarea {
 					margin: 0;
 				}
 
-	/*			.tiles article > a .content {
+				.tiles article > a .content {
 					-moz-transition: max-height 0.5s ease, opacity 0.5s ease;
 					-webkit-transition: max-height 0.5s ease, opacity 0.5s ease;
 					-ms-transition: max-height 0.5s ease, opacity 0.5s ease;
@@ -2704,7 +2704,7 @@ input, select, textarea {
 					.tiles article > a .content > :last-child {
 						margin-bottom: 0;
 					}
-    */
+/*    
 			.tiles article.style1 > .image:before {
 				background-color: #f2849e;
 			}
@@ -2730,10 +2730,10 @@ input, select, textarea {
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
-				/* -moz-transform: scale(1.1);
-				-webkit-transform: scale(1.1);
-				-ms-transform: scale(1.1);
-				transform: scale(1.1); */
+				-moz-transform: scale(1.0);
+				-webkit-transform: scale(1.0);
+				-ms-transform: scale(1.0);
+				transform: scale(1.0);
 			}
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
@@ -2749,16 +2749,16 @@ input, select, textarea {
 				max-height: 15em;
 				opacity: 1;
 			}
-
+*/
 		* + .tiles {
 			margin-top: 2em;
 		}
 
 		body.is-preload .tiles article {
-			-moz-transform: scale(0.9);
-			-webkit-transform: scale(0.9);
-			-ms-transform: scale(0.9);
-			transform: scale(0.9);
+			-moz-transform: scale(1.0);
+			-webkit-transform: scale(1.0);
+			-ms-transform: scale(1.0);
+			transform: scale(1.0);
 			opacity: 0;
 		}
 
@@ -2805,10 +2805,10 @@ input, select, textarea {
 				}
 
 					.tiles article:hover > .image {
-						/* -moz-transform: scale(1.0);
+						-moz-transform: scale(1.0);
 						-webkit-transform: scale(1.0);
 						-ms-transform: scale(1.0);
-						transform: scale(1.0); */
+						transform: scale(1.0);
 					}
 
 		}
@@ -2829,7 +2829,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		padding: 4em 0 0.1em 0 ;
 	}
 
 		#header .logo {
